@@ -8,7 +8,7 @@ const dropdown = document.querySelector('.dropdown')
 
 
 const input = document.querySelector('#input');
-input.addEventListener('input', debounce(onSearchСountry, 1000));
+input.addEventListener('input', debounce(onSearchСountry, 500));
 
 function onSearchСountry({target:{value}}) {
     if(!value){return}

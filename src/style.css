@@ -19,11 +19,20 @@ font-size: 50px;}
 
 .card_country{
     display: inline-flex;
-   min-width: 300px;
+   
+}
+.country{
+    min-width: 300px;
    text-align: left;
    font-size: 25px;
 }
 
+
+
 .people_list{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 25px;
+    text-align: left;
 }
